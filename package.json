@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "webpack": "^4.28.1",
+    "webpack-cli": "^3.2.1"
+  },
+  "scripts": {
+    "build:prod": "webpack",
+    "build:dev": "webpack --watch --config webpack.dev.config.js"
+  }
+}
